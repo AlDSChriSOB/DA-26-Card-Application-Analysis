@@ -1,0 +1,14 @@
+{
+  "id": 26,
+  "title": "Card Application Analysis",
+  "question": "How do recorded expenditure values differ by card acceptance?",
+  "x": "card",
+  "y": "expenditure",
+  "mode": "group",
+  "caveat": "Expenditure zeros and acceptance selection require source interpretation; this is not a validated lending model.",
+  "action": "Audit zero expenditures and selection before customer segmentation.",
+  "csv": "https://vincentarelbundock.github.io/Rdatasets/csv/AER/CreditCard.csv",
+  "doc": "https://vincentarelbundock.github.io/Rdatasets/doc/AER/CreditCard.html",
+  "metric_label": "mean expenditure",
+  "method": "Complete-case descriptive comparison of expenditure by card; show group counts, mean, minimum and maximum."
+}

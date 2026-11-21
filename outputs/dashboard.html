@@ -1,0 +1,27 @@
+<html><head><meta charset="utf-8"><title>Card Application Analysis</title><style>body{font:17px system-ui;max-width:1100px;margin:40px auto;padding:20px;color:#182d41}img{max-width:100%}td,th{padding:8px;border-bottom:1px solid #ddd}</style></head><body><h1>Card Application Analysis</h1><p>How do recorded expenditure values differ by card acceptance?</p><p>The largest observed mean expenditure is 238.602 for yes. This ranking is descriptive, not a recommendation.</p><img src="main_chart.png"><h2>SQL evidence</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>segment</th>
+      <th>rows_used</th>
+      <th>metric</th>
+      <th>minimum</th>
+      <th>maximum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>no</td>
+      <td>296</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>yes</td>
+      <td>1023</td>
+      <td>238.602421</td>
+      <td>0.0</td>
+      <td>3099.505</td>
+    </tr>
+  </tbody>
+</table><h2>Limitations</h2><p>Expenditure zeros and acceptance selection require source interpretation; this is not a validated lending model.</p><h2>Next action</h2><p>Audit zero expenditures and selection before customer segmentation.</p></body></html>

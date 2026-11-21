@@ -1,0 +1,14 @@
+column,dtype,missing,missing_pct,distinct
+rownames,int64,0,0.0,1319
+card,object,0,0.0,2
+reports,int64,0,0.0,13
+age,float64,0,0.0,418
+income,float64,0,0.0,431
+share,float64,0,0.0,1162
+expenditure,float64,0,0.0,981
+owner,object,0,0.0,2
+selfemp,object,0,0.0,2
+dependents,int64,0,0.0,7
+months,int64,0,0.0,193
+majorcards,int64,0,0.0,2
+active,int64,0,0.0,35
